@@ -82,7 +82,7 @@ string controllaSesso(string& sesso) {
         cout << "Input non valido. Inserisci 'm' per maschi o 'f' per femmine.\n";
         cin >> sesso;
     }
-    return controllaSesso(sesso);
+    return sesso;
 }
 
 string toLower( string str) {
